@@ -16,7 +16,7 @@ const Styles= StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         height: 100,
-        backgroundColor: '#ff304f',
+        backgroundColor: '#61DAFB',
     },
     title: {
         textAlign: 'center',

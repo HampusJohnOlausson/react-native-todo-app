@@ -1,15 +1,15 @@
 import React, { useState} from 'react';
 import Header from './components/header';
-import TodoItem from './components/todoItem';
+import TodoItem from './components/eachTodo';
 import AddTodo from './components/addTodo';
 import { StyleSheet, Text, View, FlatList } from 'react-native';
 
 export default function App() {
 
   const [todos, setTodos] = useState([
-    { text: 'go to the gym', key: '1' },
-    { text: 'But groceries', key: '2' },
-    { text: 'call the insurance company', key: '3' }
+    { text: 'Practice React Native', key: '1' },
+    { text: 'Buy groceries', key: '2' },
+    { text: 'Call the insurance company', key: '3' }
   ]);
   
   const pressHandler = (key) => {
@@ -50,7 +50,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#282D33',
   },
   content: {
     flex: 1,
