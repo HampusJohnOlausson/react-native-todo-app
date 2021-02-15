@@ -29,8 +29,9 @@ const styles = StyleSheet.create({
         paddingVertical: 6,
         borderBottomWidth: 1,
         borderBottomColor: '#61DAFB',
-        color: '#61DAFB',
-        fontSize: 15,
-        fontWeight: 'bold'
+        color: '#fff',
+        fontSize: 20,
+        fontWeight: 'bold',
+        
     }
 })

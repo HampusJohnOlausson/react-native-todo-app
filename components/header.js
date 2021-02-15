@@ -21,8 +21,7 @@ const Styles= StyleSheet.create({
     title: {
         textAlign: 'center',
         color: '#fff',
-        fontSize: 20,
-        fontFamily: 'poppins',
+        fontSize: 25,
         fontWeight: 'bold'
     }
 })

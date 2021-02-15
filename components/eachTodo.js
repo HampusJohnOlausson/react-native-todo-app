@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
         color: '#fff',
         borderWidth: 3,
         borderRadius: 10,
-        fontSize: 15,
+        fontSize: 20,
         fontWeight: 'bold'
     }
 })
