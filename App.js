@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useState} from 'react';
+import Header from './components/header'
 import { StyleSheet, Text, View, FlatList } from 'react-native';
 
 export default function App() {
@@ -12,7 +13,9 @@ export default function App() {
   
   return (
     <View style={styles.container}>
+      {/* Header */}
       <View style={styles.content}>
+        {/* to form */}
         <View style={styles.list}>
         <FlatList
         data={todos}
@@ -34,4 +37,10 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  content: {
+    padding: 10,
+  }, 
+  list: {
+
+  }
 });
