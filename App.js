@@ -13,7 +13,7 @@ export default function App() {
   
   return (
     <View style={styles.container}>
-      {/* Header */}
+      <Header/>
       <View style={styles.content}>
         {/* to form */}
         <View style={styles.list}>
@@ -34,8 +34,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
   content: {
     padding: 10,
