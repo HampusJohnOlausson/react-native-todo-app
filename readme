@@ -1,4 +1,4 @@
-This is a React Native App
+This is a React Native Todo App.
 
 Open the project and you must have intstalled React Native Expo.
 To install React Native Expo:
@@ -15,3 +15,5 @@ To view the application with your phone:
 - Download the app Expo.js
 - Click on the link below
 - Scan the QR code with your phone to view the application:
+
+https://expo.io/@hampusolausson/projects/react-native-todo-app
