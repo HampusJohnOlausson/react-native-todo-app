@@ -24,7 +24,7 @@ export default function AddTodo({ submitHandler }){
 const styles = StyleSheet.create({
     input: {
         marginBottom: 20,
-        MarginTop: 20,
+        marginTop: 20,
         paddingHorizontal: 8,
         paddingVertical: 6,
         borderBottomWidth: 1,
