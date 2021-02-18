@@ -11,13 +11,14 @@ export default function App() {
     { text: 'Buy groceries', key: '2' },
     { text: 'Call the insurance company', key: '3' }
   ]);
-  
+
+  //Deletes todo by identifying its key
   const pressHandler = (key) => {
     setTodos((prevTodos) => {
       return prevTodos.filter(todo => todo.key != key);
     });
   } 
-
+  //Adds a a todo with a random key when user press on button
   const submitHandler = (text) => {
 
       setTodos((prevTodos) => {
